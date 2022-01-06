@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div id="top">
+    <div class="header">
+      <h2>Task management</h2>
+      <p class="msg"></p>
+      <input type="text" id="input" placeholder="Title...">
+      <span onclick="addTask()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="tasks">
+      <li class="done">Go through DataFlair's JavaScript tutorials </li>
+      <li>Practice the codes</li>
+      <li>Read a book on Java Script</li>
+      <li class="done">Organize my notes </li>
+      <li>Create JavaScript project</li>
+      <li class="done">Take quiz</li>
+      <li>Comprehend interview questions</li>
+    </ul>
+  </div>
+
+  <div id="extra">
+    <button type="button" onclick="myReset()" >Remove All</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
