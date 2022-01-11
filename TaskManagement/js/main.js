@@ -3,7 +3,6 @@ let i;
 let close = document.getElementsByClassName("close");
 let list = document.querySelector("ul");
 
-// //For default "tasks"
 function addClose(element) {
   let span = document.createElement("SPAN");
   let txt = document.createTextNode("\u00D7");
@@ -16,6 +15,7 @@ function addClose(element) {
   };
 }
 
+// For default "tasks"
 for (i = 0; i < myNodelist.length; i++) {
   addClose(myNodelist[i]);
 }
